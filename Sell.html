@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="assets/css/bundle.css" />
+
+    <title>เพิ่มประวัติการขาย</title>
+</head>
+
+<body>
+    <!-- Side bar -->
+    <div class="sidebar">
+        <div class="sidebar-app-name">
+            <img class="logo" src="./assets/img/logo.png" />
+        </div>
+        <div class="menu">
+            <ul class="">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a class="active" href="#">จัดการพนักงาน</a></li>
+                <li><a class="nav-link" href="#">จัดการลูกค้า</a></li>
+                <li><a class="nav-link" href="#">จัดการการขาย</a></li>
+                <li><a class="nav-link" href="#">จัดการการซื้อ</a></li>
+                <li><a class="nav-link" href="#">จัดการการซ่อม</a></li>
+                <li><a class="nav-link" href="#">จัดการการเดินทะเบียน</a></li>
+                <li><a class="nav-link" href="#">จัดการข้อมูลรถ</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="banner">
+            <div class="banner-title"><div href="#">ออกจากระบบ</div></div>
+        </div>
+
+<!-- Work Area -->
+        <div class="container">
+          <form>
+            <div class="form-control">
+                    <div class="Sell_col">
+                          <span id="addSell">เพิ่มประวัติการขาย</span>
+                    </div>
+                    <div class="col" >
+                      <input type="text" class="form-control" placeholder="ค้นหาข้อมูลรถ" />
+                    </div>
+                    <div>
+                            <button type="submit" class="btn btn-primary float-right">ค้นหา</button>
+                          </div>
+                  </div>
+          </form>
+            <br />
+            <form>
+              <div class="form-control">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="ลูกค้า" />
+                </div>
+                <div class="col">
+                  <input type="date" class="form-control" placeholder="วัน/เดือน/ปี" />
+                </div>
+              </div>
+              <div class="form-control">
+                <div class="col">
+                  <input type="number" class="form-control" min="0" placeholder="ราคา" />
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-primary float-right">เพิ่มการเดินทะเบียน</button> 
+                </div>
+              </div>
+              <table>
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">รุ่นของรถ</th>
+                        <th scope="col">ราคา</th>
+                        <th scope="col">จัดการ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ford-Mustang 5.0L V8 GT Coupe Performance 2018</td>
+                        <td>4,799,000</td>
+                        <td>
+                            <button type="submit" class="btn btn-warning btn-sm">แก้ไข</button>
+                            <button type="submit" class="btn btn-danger btn-sm">ลบ</button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Tesla Model S P100D</td>
+                        <td>6,390,000</td>
+                        <td>
+                            <button type="submit" class="btn btn-warning btn-sm">แก้ไข</button>
+                            <button type="submit" class="btn btn-danger btn-sm">ลบ</button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+              <button type="submit" class="btn btn-success mb-2 float-right">บันทึก</button>
+              <button type="submit" class="btn btn-danger mb-2 float-left">ยกเลิก</button>
+    
+            </form>
+        </div>
+<!-- End work Area -->
+
+    </div>
+
+
+</body>
+
+</html>

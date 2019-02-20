@@ -1,0 +1,20 @@
+.banner{
+    height: 7vh;
+    background-color:#f8a24d;
+}
+.banner .banner-title {
+    height: 7vh;
+    background-color:#3f3e3e;
+    float: right;
+    align-items: center;
+}
+
+.banner .banner-title:hover {
+    background-color:#777676;
+}
+.banner .banner-title > div{
+    font-size: 1.2rem;
+    margin-top: 2vh;
+    color: whitesmoke;
+    padding: 0 1rem;
+}
