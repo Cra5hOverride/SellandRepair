@@ -13,3 +13,14 @@
     max-width: 25%;
     width: 25%;
 }
+
+input[type=date],textarea {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    background-color: white;
+    border: 1px solid #ccc !important;
+    font-family: inherit;
+  }
+
